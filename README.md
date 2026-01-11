@@ -112,5 +112,3 @@ Embedded Systems Trainee | C Programmer | Linux Enthusiast
 📍 Karnataka, India
 
 ---
-* Customize for **embedded profile**
-* Or make a **shorter version** for quick GitHub display 😊
