@@ -1,0 +1,58 @@
+/*-----------------DOCUMENTATION-----------------------------------------------
+Name          : Dheeraj H K
+Starting date : 22/12/2025
+Ending date   : 02/01/2026
+
+Description: 
+
+This project is a MiniShell implemented in C for Linux operating systems.
+MiniShell is a simplified version of the Unix/Linux shell which allows the user
+to interact with the operating system through command-line inputs.
+
+The MiniShell allows the user to:
+
+Execute external Linux commands
+Implement built-in commands like cd and exit
+Handle multiple commands using pipes
+Perform input and output redirection
+Run commands in background
+Handle signals like Ctrl+C without terminating the shell
+
+The project is developed using Linux system calls and demonstrates
+process management, inter-process communication, and signal handling.
+
+Sample Input and Output:
+
+Execution
+
+Input:
+
+./minishell
+
+
+Output:
+
+===============================START===================================
+MiniShell$ ls
+file1.c   file2.txt   minishell
+
+MiniShell$ pwd
+/home/user/projects/minishell
+
+MiniShell$ echo Hello World
+Hello World
+
+MiniShell$ cd ..
+MiniShell$ pwd
+/home/user/projects
+
+MiniShell$ sleep 10
+
+MiniShell$ Ctrl + C
+INFO : Signal handled successfully
+
+MiniShell$ exit
+INFO : Exiting MiniShell
+================================END====================================
+---------------------------------------------------------------------------*/
+
